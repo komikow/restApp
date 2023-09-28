@@ -8,6 +8,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+/**
+ * @author Sergey Komikov
+ */
 @ExtendWith(MockitoExtension.class)
 class DataServiceImplTest {
     @Mock

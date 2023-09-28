@@ -7,7 +7,9 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
-
+/**
+ * @author Sergey Komikov
+ */
 @Component
 public class Utils {
     @Schema(description = "converts the request string into a reverse-sorted Map, and then into a response string")

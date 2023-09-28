@@ -1,7 +1,5 @@
 package by.komikow.restApp.utils;
 
-//import org.junit.Assert;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 
@@ -11,6 +9,9 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Sergey Komikov
+ */
 @AutoConfigureMockMvc(printOnlyOnFailure = false)
 class UtilsTest {
     Utils utils = new Utils();
